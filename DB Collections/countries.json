@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "64804617610caaff28d28e59"
+  },
+  "countryId": 101,
+  "countryName": "India",
+  "sortName": "IN",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804617610caaff28d28e5a"
+  },
+  "countryId": 231,
+  "countryName": "United States",
+  "sortName": "US",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804617610caaff28d28e5b"
+  },
+  "countryId": 44,
+  "countryName": "China",
+  "sortName": "CN",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804617610caaff28d28e5c"
+  },
+  "countryId": 181,
+  "countryName": "Russia",
+  "sortName": "RU",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804617610caaff28d28e5d"
+  },
+  "countryId": 206,
+  "countryName": "Sri Lanka",
+  "sortName": "LK",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804617610caaff28d28e5e"
+  },
+  "countryId": 153,
+  "countryName": "Nepal",
+  "sortName": "NP",
+  "__v": 0
+}]

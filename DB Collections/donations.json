@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "648ab5f1273051034293f980"
+  },
+  "UserID": {
+    "$oid": "648aa52972d096fd3751fbdc"
+  },
+  "YearofDonation": 2023,
+  "MonthofDonation": 6,
+  "NameMonthofDonation": "June",
+  "AmountPaid": 300,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648ab60f273051034293f983"
+  },
+  "UserID": {
+    "$oid": "648aa52972d096fd3751fbdc"
+  },
+  "YearofDonation": 2023,
+  "MonthofDonation": 6,
+  "NameMonthofDonation": "June",
+  "AmountPaid": 700,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648ab61b273051034293f986"
+  },
+  "UserID": {
+    "$oid": "648aa52972d096fd3751fbdc"
+  },
+  "YearofDonation": 2023,
+  "MonthofDonation": 6,
+  "NameMonthofDonation": "June",
+  "AmountPaid": 260,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648ab83c273051034293f989"
+  },
+  "UserID": {
+    "$oid": "648aa52972d096fd3751fbdc"
+  },
+  "YearofDonation": 2023,
+  "MonthofDonation": 6,
+  "NameMonthofDonation": "June",
+  "AmountPaid": 22000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648afc59c9bdcc66b28627f1"
+  },
+  "UserID": {
+    "$oid": "648aa52972d096fd3751fbdc"
+  },
+  "YearofDonation": 2023,
+  "MonthofDonation": 5,
+  "NameMonthofDonation": "May",
+  "AmountPaid": 500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648b10af888d022b06fa6a4f"
+  },
+  "UserID": {
+    "$oid": "648aa52972d096fd3751fbdc"
+  },
+  "YearofDonation": 2026,
+  "MonthofDonation": 4,
+  "NameMonthofDonation": "April",
+  "AmountPaid": 400,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648bf1d3c36174e49f766b4b"
+  },
+  "UserID": {
+    "$oid": "648befc5d4fa290ed41666a5"
+  },
+  "YearofDonation": 2023,
+  "MonthofDonation": 4,
+  "NameMonthofDonation": "April",
+  "AmountPaid": 5000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648c3f4511944d353c0833ce"
+  },
+  "UserID": {
+    "$oid": "648aa52972d096fd3751fbdc"
+  },
+  "YearofDonation": 2023,
+  "MonthofDonation": 5,
+  "NameMonthofDonation": "May",
+  "AmountPaid": 150,
+  "__v": 0
+}]

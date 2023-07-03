@@ -1,0 +1,28 @@
+[
+    {
+        "Address": {
+            "FlatNumber": 501,
+            "Area": "Gota",
+            "State": {
+                "_id": "6480476a610caaff28d28e66",
+                "stateName": "Gujarat"
+            },
+            "City": {
+                "_id": "64804821610caaff28d28e6a",
+                "cityName": "Ahmedabad"
+            },
+            "Pincode": "443332"
+        },
+        "_id": "6482d19d3752f37bf36c13e1",
+        "FirstName": "vasu",
+        "MiddleName": "",
+        "LastName": "bhimani",
+        "ProfilePhoto": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        "UserLoginId": "2023VaBh5universaldevotee.com",
+        "Email": "vasubhimani@gmail.com",
+        "Password": "$2b$12$5Z/.Ef8fvXghYA008VmoPutqKiZz1CbMdfC730dc7DPSUy9vfZA52",
+        "Role": "devotee",
+        "InitiationDate": "2023-05-12T00:00:00.000Z",
+        "__v": 0
+    }
+]

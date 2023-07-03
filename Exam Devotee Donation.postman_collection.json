@@ -1,0 +1,538 @@
+{
+	"info": {
+		"_postman_id": "14502739-bf46-42b3-b6c3-c9eb616308e6",
+		"name": "Exam Devotee Donation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26396692"
+	},
+	"item": [
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "Devotee",
+					"item": [
+						{
+							"name": "Get Devotees List",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDg5YWNmMGMzMzBhMmZkMGY1NTYxNTYiLCJFbWFpbCI6Im1yb2hpdHNzb25pQGdtYWlsLmNvbSIsIlBhc3N3b3JkIjoiJDJiJDEyJFVQdVlwQWowbW1hR0dMdkEuTy5vUC5HT1oyZlguVmZWL3BFaGJkekpDdnEucC9WaTBLVzd1IiwiQ29uZmlybVBhc3N3b3JkIjoiJDJiJDEyJFVQdVlwQWowbW1hR0dMdkEuTy5vUC5HT1oyZlguVmZWL3BFaGJkekpDdnEucC9WaTBLVzd1IiwiUm9sZSI6ImFkbWluIiwiX192IjowLCJpYXQiOjE2ODY3NDUxMTIsImV4cCI6MTY4Njc4ODMxMn0.ldgi7FBgnT7sDFsgl1u80zozgd98sibxs6ZyrhllCpA",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/getalluserdevoteedata",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"getalluserdevoteedata"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Devotee",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:3000/deleteuserdevoteedata",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"deleteuserdevoteedata"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Edit Devotee",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:3000/edituserdevoteedata/6482d19d3752f37bf36c13e1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"edituserdevoteedata",
+										"6482d19d3752f37bf36c13e1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create New Devotee",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/createdevoteeuser",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"createdevoteeuser"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get All Donation Record",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Create Admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Email\":\"mrohitssoni@gmail.com\",\n    \"Password\":\"soniRohit@86\",\n    \"ConfirmPassword\":\"soniRohit@86\",\n    \"Role\":\"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/createadmin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"createadmin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login Admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Email\":\"mrohitssoni@gmail.com\",\n    \"Password\":\"soniRohit@86\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/loginuser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"loginuser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create New Country",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[{\n    \"countryId\": 101,\n    \"sortName\": \"IN\",\n    \"countryName\": \"India\"\n  },\n  {\n    \"countryId\": 231,\n    \"sortName\": \"US\",\n    \"countryName\": \"United States\"\n  },\n  {\n    \"countryId\": 44,\n    \"sortName\": \"CN\",\n    \"countryName\": \"China\"\n  },\n  {\n    \"countryId\": 181,\n    \"sortName\": \"RU\",\n    \"countryName\": \"Russia\"\n  },\n\n  {\n    \"countryId\": 206,\n    \"sortName\": \"LK\",\n    \"countryName\": \"Sri Lanka\"\n  },\n  {\n    \"countryId\": 153,\n    \"sortName\": \"NP\",\n    \"countryName\": \"Nepal\"\n  }\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/addcountry",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"addcountry"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create New State",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n    \"stateId\": \"33\",\n    \"stateName\": \"Rajasthan\",\n    \"countryId\": \"64804617610caaff28d28e59\"\n},\n{\n    \"stateId\": \"12\",\n    \"stateName\": \"Gujarat\",\n    \"countryId\": \"64804617610caaff28d28e59\"\n},\n{\n    \"stateId\": \"22\",\n    \"stateName\": \"Maharashtra\",\n    \"countryId\": \"64804617610caaff28d28e59\"\n},\n{\n    \"stateId\": \"10\",\n    \"stateName\": \"Delhi\",\n    \"countryId\": \"64804617610caaff28d28e59\"\n  }\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/addstate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"addstate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create New City",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n    \"cityId\": 783,\n    \"cityName\": \"Ahmedabad\",\n    \"stateId\": \"6480476a610caaff28d28e66\"\n  },\n  {\n    \"cityId\": 706,\n    \"cityName\": \"Delhi\",\n    \"stateId\": \"6480476a610caaff28d28e68\"\n  },\n\n  {\n    \"cityId\": 2707,\n    \"cityName\": \"Mumbai\",\n    \"stateId\": \"6480476a610caaff28d28e67\"\n  },\n\n  {\n    \"cityId\": 3378,\n    \"cityName\": \"Jaipur\",\n    \"stateId\": \"6480476a610caaff28d28e65\"\n  },\n\n  {\n    \"cityId\": 3387,\n    \"cityName\": \"Jodhpur\",\n    \"stateId\": \"6480476a610caaff28d28e65\"\n  },\n\n  {\n    \"cityId\": 1068,\n    \"cityName\": \"Vadodara\",\n    \"stateId\": \"6480476a610caaff28d28e66\"\n  }\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/addcity",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"addcity"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify OTP",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"OTP\":\"6521\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/loginuser/otpverification",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"loginuser",
+								"otpverification"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Users List Not Paid For Current Month",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Fetch Data",
+			"item": [
+				{
+					"name": "Test Application",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch States",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/fetchstatelist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"fetchstatelist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Cities",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/fetchcitieslist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"fetchcitieslist"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Devotee User",
+			"item": [
+				{
+					"name": "Login Devotee",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Email\":\"mohroh@gmail.com\",\n    \"Password\":\"Mohi@2023De\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/logindevoteeuser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"logindevoteeuser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify OTP",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"OTP\":\"4997\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/loginuser/otpverification",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"loginuser",
+								"otpverification"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pay Donation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBZGRyZXNzIjp7IkZsYXROdW1iZXIiOjQwMywiQXJlYSI6Ik5lYXIgQnVzIFN0YW5kIiwiU3RhdGUiOiI2NDgwNDc2YTYxMGNhYWZmMjhkMjhlNjUiLCJDaXR5IjoiNjQ4MDQ4MjE2MTBjYWFmZjI4ZDI4ZTZkIiwiUGluY29kZSI6IjM0NTI2NCJ9LCJfaWQiOiI2NDhhYTUyOTcyZDA5NmZkMzc1MWZiZGMiLCJGaXJzdE5hbWUiOiJtb2hpbmkiLCJNaWRkbGVOYW1lIjoicm9oIiwiTGFzdE5hbWUiOiJzb25pIiwiUHJvZmlsZVBob3RvIjoiaHR0cHM6Ly9jZG4taWNvbnMtcG5nLmZsYXRpY29uLmNvbS81MTIvMzEzNS8zMTM1NzE1LnBuZyIsIlVzZXJMb2dpbklkIjoiMjAyM01vU281dW5pdmVyc2FsZGV2b3RlZS5jb20iLCJFbWFpbCI6Im1vaHJvaEBnbWFpbC5jb20iLCJQYXNzd29yZCI6IiQyYiQxMiQ3VmhHRi9qM3drRjBMOXNFbmhnaXVlck5nUUIvUmlieFJIMFp4U0l3LlVmNE5icWlSbDlrdSIsIlJvbGUiOiJkZXZvdGVlIiwiTmF0aW9uYWxpdHkiOiJpbmRpYW4iLCJJbml0aWF0aW9uRGF0ZSI6IjIwMjMtMDUtMTRUMDA6MDA6MDAuMDAwWiIsIl9fdiI6MCwiaWF0IjoxNjg2ODA4MzU5LCJleHAiOjE2ODY4NTE1NTl9.cj4Pcvx5ojQjbGjVf4mA0d99E4coPgNnqy4HFf4nA00",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"UserID\":\"648aa52972d096fd3751fbdc\", \n    \"YearofDonation\":2023,\n    \"MonthofDonation\":5,\n    \"NameMonthofDonation\":\"June\",\n    \"AmountPaid\":5000\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/paydonation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"paydonation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Donation Total",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBZGRyZXNzIjp7IkZsYXROdW1iZXIiOjMzMywiQXJlYSI6Ik5lYXIgQWlycG9ydCBTdGFuZCIsIlN0YXRlIjoiNjQ4MDQ3NmE2MTBjYWFmZjI4ZDI4ZTY3IiwiQ2l0eSI6IjY0ODA0ODIxNjEwY2FhZmYyOGQyOGU2YyIsIlBpbmNvZGUiOiI0MzI1NDMifSwiX2lkIjoiNjQ4YmVmYzVkNGZhMjkwZWQ0MTY2NmE1IiwiRmlyc3ROYW1lIjoicm9oaXQiLCJNaWRkbGVOYW1lIjoiciIsIkxhc3ROYW1lIjoic2hhcm1hIiwiUHJvZmlsZVBob3RvIjoiaHR0cHM6Ly9jZG4taWNvbnMtcG5nLmZsYXRpY29uLmNvbS81MTIvMzEzNS8zMTM1NzE1LnBuZyIsIlVzZXJMb2dpbklkIjoiMjAyM1JvU2g0dW5pdmVyc2FsZGV2b3RlZS5jb20iLCJFbWFpbCI6InJvaGl0c2hhcm1hQGdtYWlsLmNvbSIsIlBhc3N3b3JkIjoiJDJiJDEyJEIxQnZpRVM3ak9BdTVaQ2dRUUZjQWV3eE1RaWNaTUNPV2hDRjZTQzdBbFNSNEQ2eFE4bXouIiwiUm9sZSI6ImRldm90ZWUiLCJOYXRpb25hbGl0eSI6ImluZGlhbiIsIkluaXRpYXRpb25EYXRlIjoiMjAyMy0wNC0yN1QwMDowMDowMC4wMDBaIiwiX192IjowLCJpYXQiOjE2ODY4OTI4MTYsImV4cCI6MTY4NjkzNjAxNn0.0DsL_Oc3W7IK9c2e2DKNm5ehL97eSZtkv1PEI61eXmQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/getdevoteedonationdetails/648aa52972d096fd3751fbdc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"getdevoteedonationdetails",
+								"648aa52972d096fd3751fbdc"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Login Id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBZGRyZXNzIjp7IkZsYXROdW1iZXIiOjQwMywiQXJlYSI6Ik5lYXIgQnVzIFN0YW5kIiwiU3RhdGUiOiI2NDgwNDc2YTYxMGNhYWZmMjhkMjhlNjUiLCJDaXR5IjoiNjQ4MDQ4MjE2MTBjYWFmZjI4ZDI4ZTZkIiwiUGluY29kZSI6IjM0NTI2NCJ9LCJfaWQiOiI2NDhhYTUyOTcyZDA5NmZkMzc1MWZiZGMiLCJGaXJzdE5hbWUiOiJtb2hpbmkiLCJNaWRkbGVOYW1lIjoicm9oIiwiTGFzdE5hbWUiOiJzb25pIiwiUHJvZmlsZVBob3RvIjoiaHR0cHM6Ly9jZG4taWNvbnMtcG5nLmZsYXRpY29uLmNvbS81MTIvMzEzNS8zMTM1NzE1LnBuZyIsIlVzZXJMb2dpbklkIjoiMjAyM01vU281dW5pdmVyc2FsZGV2b3RlZS5jb20iLCJFbWFpbCI6Im1vaHJvaEBnbWFpbC5jb20iLCJQYXNzd29yZCI6IiQyYiQxMiQ3VmhHRi9qM3drRjBMOXNFbmhnaXVlck5nUUIvUmlieFJIMFp4U0l3LlVmNE5icWlSbDlrdSIsIlJvbGUiOiJkZXZvdGVlIiwiTmF0aW9uYWxpdHkiOiJpbmRpYW4iLCJJbml0aWF0aW9uRGF0ZSI6IjIwMjMtMDUtMTRUMDA6MDA6MDAuMDAwWiIsIl9fdiI6MCwiaWF0IjoxNjg2ODA4MzU5LCJleHAiOjE2ODY4NTE1NTl9.cj4Pcvx5ojQjbGjVf4mA0d99E4coPgNnqy4HFf4nA00",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/getuserloginid",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"getuserloginid"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBZGRyZXNzIjp7IkZsYXROdW1iZXIiOjQwMywiQXJlYSI6Ik5lYXIgQnVzIFN0YW5kIiwiU3RhdGUiOiI2NDgwNDc2YTYxMGNhYWZmMjhkMjhlNjUiLCJDaXR5IjoiNjQ4MDQ4MjE2MTBjYWFmZjI4ZDI4ZTZkIiwiUGluY29kZSI6IjM0NTI2NCJ9LCJfaWQiOiI2NDhhYTUyOTcyZDA5NmZkMzc1MWZiZGMiLCJGaXJzdE5hbWUiOiJtb2hpbmkiLCJNaWRkbGVOYW1lIjoicm9oIiwiTGFzdE5hbWUiOiJzb25pIiwiUHJvZmlsZVBob3RvIjoiaHR0cHM6Ly9jZG4taWNvbnMtcG5nLmZsYXRpY29uLmNvbS81MTIvMzEzNS8zMTM1NzE1LnBuZyIsIlVzZXJMb2dpbklkIjoiMjAyM01vU281dW5pdmVyc2FsZGV2b3RlZS5jb20iLCJFbWFpbCI6Im1vaHJvaEBnbWFpbC5jb20iLCJQYXNzd29yZCI6IiQyYiQxMiQ3VmhHRi9qM3drRjBMOXNFbmhnaXVlck5nUUIvUmlieFJIMFp4U0l3LlVmNE5icWlSbDlrdSIsIlJvbGUiOiJkZXZvdGVlIiwiTmF0aW9uYWxpdHkiOiJpbmRpYW4iLCJJbml0aWF0aW9uRGF0ZSI6IjIwMjMtMDUtMTRUMDA6MDA6MDAuMDAwWiIsIl9fdiI6MCwiaWF0IjoxNjg2ODA4MzU5LCJleHAiOjE2ODY4NTE1NTl9.cj4Pcvx5ojQjbGjVf4mA0d99E4coPgNnqy4HFf4nA00",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/getdevoteedetails/648aa52972d096fd3751fbdc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"getdevoteedetails",
+								"648aa52972d096fd3751fbdc"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

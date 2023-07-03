@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "647efe00ba1b80146344a8f1"
+  },
+  "Email": "rohitsonimax@gmail.com",
+  "Password": "$2b$12$.9AbjL8NubfDhLv1R4TL2efFa.b7d/y5BxmitlI7aH5zeLDzdxoY.",
+  "ConfirmPassword": "$2b$12$.9AbjL8NubfDhLv1R4TL2efFa.b7d/y5BxmitlI7aH5zeLDzdxoY.",
+  "Role": "admin",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6489acf0c330a2fd0f556156"
+  },
+  "Email": "mrohitssoni@gmail.com",
+  "Password": "$2b$12$UPuYpAj0mmaGGLvA.O.oP.GOZ2fX.VfV/pEhbdzJCvq.p/Vi0KW7u",
+  "ConfirmPassword": "$2b$12$UPuYpAj0mmaGGLvA.O.oP.GOZ2fX.VfV/pEhbdzJCvq.p/Vi0KW7u",
+  "Role": "admin",
+  "__v": 0
+}]

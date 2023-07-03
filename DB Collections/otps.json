@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "648bfc3895331ed11c7c6831"
+  },
+  "userEmailId": "mrohitssoni@gmail.com",
+  "OTP": "7708",
+  "userID": "6489acf0c330a2fd0f556156",
+  "createdAt": {
+    "$date": "2023-06-16T05:49:15.452Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648c0bb2f11c06c6494dc8e2"
+  },
+  "userEmailId": "mrohitssoni@gmail.com",
+  "OTP": "8438",
+  "userID": "6489acf0c330a2fd0f556156",
+  "createdAt": {
+    "$date": "2023-06-16T07:12:14.409Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648c3f0811944d353c0833c7"
+  },
+  "userEmailId": "mohroh@gmail.com",
+  "OTP": "4544",
+  "userID": "648aa52972d096fd3751fbdc",
+  "createdAt": {
+    "$date": "2023-06-16T09:30:29.097Z"
+  },
+  "__v": 0
+}]

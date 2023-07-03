@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "6480476a610caaff28d28e65"
+  },
+  "stateId": 33,
+  "stateName": "Rajasthan",
+  "countryId": {
+    "$oid": "64804617610caaff28d28e59"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6480476a610caaff28d28e66"
+  },
+  "stateId": 12,
+  "stateName": "Gujarat",
+  "countryId": {
+    "$oid": "64804617610caaff28d28e59"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6480476a610caaff28d28e67"
+  },
+  "stateId": 22,
+  "stateName": "Maharashtra",
+  "countryId": {
+    "$oid": "64804617610caaff28d28e59"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6480476a610caaff28d28e68"
+  },
+  "stateId": 10,
+  "stateName": "Delhi",
+  "countryId": {
+    "$oid": "64804617610caaff28d28e59"
+  },
+  "__v": 0
+}]

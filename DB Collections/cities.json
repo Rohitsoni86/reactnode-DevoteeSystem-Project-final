@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "64804821610caaff28d28e6a"
+  },
+  "cityId": 783,
+  "cityName": "Ahmedabad",
+  "stateId": {
+    "$oid": "6480476a610caaff28d28e66"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804821610caaff28d28e6b"
+  },
+  "cityId": 706,
+  "cityName": "Delhi",
+  "stateId": {
+    "$oid": "6480476a610caaff28d28e68"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804821610caaff28d28e6c"
+  },
+  "cityId": 2707,
+  "cityName": "Mumbai",
+  "stateId": {
+    "$oid": "6480476a610caaff28d28e67"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804821610caaff28d28e6d"
+  },
+  "cityId": 3378,
+  "cityName": "Jaipur",
+  "stateId": {
+    "$oid": "6480476a610caaff28d28e65"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804821610caaff28d28e6e"
+  },
+  "cityId": 3387,
+  "cityName": "Jodhpur",
+  "stateId": {
+    "$oid": "6480476a610caaff28d28e65"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804821610caaff28d28e6f"
+  },
+  "cityId": 1068,
+  "cityName": "Vadodara",
+  "stateId": {
+    "$oid": "6480476a610caaff28d28e66"
+  },
+  "__v": 0
+}]

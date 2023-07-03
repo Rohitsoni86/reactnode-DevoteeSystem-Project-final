@@ -1,0 +1,9 @@
+.active {
+    color: whitesmoke;
+    background-color: rgb(76, 76, 212);
+    border: 0px;
+}
+
+.active:hover {
+    color: whitesmoke;
+}

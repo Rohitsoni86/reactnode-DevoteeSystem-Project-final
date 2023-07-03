@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "6482d19d3752f37bf36c13e1"
+  },
+  "FirstName": "vasu",
+  "MiddleName": "",
+  "LastName": "bhimani",
+  "ProfilePhoto": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+  "UserLoginId": "2023VaBh5universaldevotee.com",
+  "Email": "vasubhimani@gmail.com",
+  "Password": "$2b$12$5Z/.Ef8fvXghYA008VmoPutqKiZz1CbMdfC730dc7DPSUy9vfZA52",
+  "Role": "devotee",
+  "Address": {
+    "FlatNumber": 501,
+    "Pincode": "323423",
+    "Area": "Gota",
+    "State": {
+      "$oid": "6480476a610caaff28d28e66"
+    },
+    "City": {
+      "$oid": "64804821610caaff28d28e6a"
+    }
+  },
+  "InitiationDate": {
+    "$date": "2023-05-12T00:00:00.000Z"
+  },
+  "__v": 0,
+  "Nationality": "indian"
+},{
+  "_id": {
+    "$oid": "648aa52972d096fd3751fbdc"
+  },
+  "FirstName": "mohini",
+  "MiddleName": "roh",
+  "LastName": "soni",
+  "ProfilePhoto": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+  "UserLoginId": "2023MoSo5universaldevotee.com",
+  "Email": "mohroh@gmail.com",
+  "Password": "$2b$12$7VhGF/j3wkF0L9sEnhgiuerNgQB/RibxRH0ZxSIw.Uf4NbqiRl9ku",
+  "Role": "devotee",
+  "Nationality": "indian",
+  "Address": {
+    "FlatNumber": 403,
+    "Area": "Near Bus Stand",
+    "State": {
+      "$oid": "6480476a610caaff28d28e65"
+    },
+    "City": {
+      "$oid": "64804821610caaff28d28e6d"
+    },
+    "Pincode": "345264"
+  },
+  "InitiationDate": {
+    "$date": "2023-05-14T00:00:00.000Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648ad6503b74676c8e42ca48"
+  },
+  "FirstName": "rohit d",
+  "MiddleName": "rajesh",
+  "LastName": "bhimani",
+  "ProfilePhoto": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+  "UserLoginId": "2023RoBh3universaldevotee.com",
+  "Email": "rohitsonimax@gmail.com",
+  "Password": "$2b$12$JrygbtbWGKRrv2jvjnfqhuQAC3EUgnMhH1ANS/6dcb8UEsEI3wMxu",
+  "Role": "devotee",
+  "Nationality": "indian",
+  "Address": {
+    "Area": "Chandkheda",
+    "FlatNumber": 103,
+    "City": {
+      "$oid": "64804821610caaff28d28e6a"
+    },
+    "State": {
+      "$oid": "6480476a610caaff28d28e65"
+    },
+    "Pincode": "323423"
+  },
+  "InitiationDate": {
+    "$date": "2023-04-25T00:00:00.000Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648befc5d4fa290ed41666a5"
+  },
+  "FirstName": "rohit",
+  "MiddleName": "r",
+  "LastName": "sharma",
+  "ProfilePhoto": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+  "UserLoginId": "2023RoSh4universaldevotee.com",
+  "Email": "rohitsharma@gmail.com",
+  "Password": "$2b$12$B1BviES7jOAu5ZCgQQFcAewxMQicZMCOWhCF6SC7AlSR4D6xQ8mz.",
+  "Role": "devotee",
+  "Nationality": "indian",
+  "Address": {
+    "FlatNumber": 333,
+    "Area": "Near Airport Stand",
+    "State": {
+      "$oid": "6480476a610caaff28d28e67"
+    },
+    "City": {
+      "$oid": "64804821610caaff28d28e6c"
+    },
+    "Pincode": "432543"
+  },
+  "InitiationDate": {
+    "$date": "2023-04-27T00:00:00.000Z"
+  },
+  "__v": 0
+}]
